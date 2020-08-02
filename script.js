@@ -20,7 +20,7 @@ navbar.innerHTML = `<body>
          <a href=https://codepen.io/MaxAllen/pen/QWyZrRy>
             <dt>Project</dt>
          </a>
-         <a href=https://codepen.io/MaxAllen/pen/QWyZrRy>
+         <a href="basicPage.html">
             <dd>Description</dd>
          </a>
          <a href=https://codepen.io/MaxAllen/pen/QWyZrRy>
