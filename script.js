@@ -1,8 +1,5 @@
 var navbar = document.getElementById("navbar");
-navbar.innerHTML = `<body>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
-   <div id=navbar>
+navbar.innerHTML = `
      <img src="https://cdn.discordapp.com/attachments/711039492688969790/735387388444147762/unknown.png"></img>
       <dl>
          <a href=https://codepen.io/MaxAllen/pen/QWyZrRy>
@@ -33,8 +30,7 @@ navbar.innerHTML = `<body>
             <dd>Attributions</dd>
          </a>
       </dl>
-   </div>
-</body>`;
+   `;
 var body = document.body,
     html = document.documentElement;
 
