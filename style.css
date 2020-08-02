@@ -1,5 +1,111 @@
+
+/* main formatting (body, p, etc.) */
 body{
+	background-color: white;
+	color: black;
 }
+
+
+div#main-content {
+  position: absolute;
+  left: 12em;
+  right: 0;
+}
+body { 
+  font-family: sans-serif; 
+  color: black;
+}
+h1 {
+  color: #A7E31D;
+  position: static;
+  text-align: center;
+  background-color: #155167;
+  font-size: 34pt;
+  padding: 1.6%;
+}
+p.subtitle {
+  color: #155167;
+  position: static;
+  text-align: center;
+  font-size: 28pt;
+  padding: 1.6%;
+}
+.gallery {
+  background: #EEE;
+}
+
+.gallery-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #BA84CB;
+  counter-increment: gallery-cell;
+  position: static;
+  display: block;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+}
+p.team-description{
+  position: static;
+  text-align: center;
+  font-size: 16pt;
+  padding: 1.6%;
+}
+button {
+  border: none;
+  padding: 0px 0px;
+}
+
+.face {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 200px;
+  height: 10%;
+  padding: 10px;
+ 
+  background-color: #6fb4d6;
+  border: 2px solid #c67edc;
+  border-radius: 5px;
+  
+}
+
+.face img {
+  width: 200px;
+  height: 200px;
+  
+}
+
+.face div {
+  background-color: #fcfcfc;
+  width: inherit;
+  
+}
+
+.face span {
+	display: none;
+	background-color: #a7e31d;
+	width: inherit;
+  
+}
+div.members{
+  position: static;
+  text-align: center;
+  padding: 1.6%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* navbar stuff */
 div#navbar {
   background-color: #6fb4d6;
   position: absolute;
