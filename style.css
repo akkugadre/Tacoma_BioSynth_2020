@@ -2,16 +2,10 @@
 
 body {
 	background-color: white;
+	font-family: "helvetica", times, serif;
+	font-size: 14px;
 	color: black;
-	font-family: sans-serif;
 }
-
-div#main-content {
-	position: absolute;
-	left: 12em;
-	right: 0;
-}
-
 
 h1 {
 	color: #A7E31D;
@@ -21,6 +15,22 @@ h1 {
 	font-size: 34pt;
 	padding: 1.6%;
 }
+
+h2 {
+	font-family: "helvetica", times, serif;
+	font-size: 25px;
+	color: #BA84CB;
+	position: absolute;
+	left: 12em;
+	right: 0;
+}
+
+div#main-content {
+	position: absolute;
+	left: 12em;
+	right: 0;
+}
+
 
 p.subtitle {
 	color: #155167;
@@ -143,15 +153,6 @@ footer {
 	font-family: "helvetica", times, serif;
 	font-size: 14px;
 	color: black;
-}
-
-h2 {
-	font-family: "helvetica", times, serif;
-	font-size: 25px;
-	color: #BA84CB;
-	position: absolute;
-	left: 12em;
-	right: 0;
 }
 
 .safetyHeading {
