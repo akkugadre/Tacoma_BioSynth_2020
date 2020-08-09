@@ -5,10 +5,10 @@ navbar.innerHTML = `
          <a href=https://codepen.io/MaxAllen/pen/QWyZrRy>
             <dt>Home</dt>
          </a>
-         <a href=https://codepen.io/MaxAllen/pen/QWyZrRy>
+         <a href="teambios.html">
             <dt>Team</dt>
          </a>
-         <a href=https://codepen.io/MaxAllen/pen/QWyZrRy>
+         <a href="teambios.html">
             <dd>Team&nbsp;Members</dd>
          </a>
          <a href=https://codepen.io/MaxAllen/pen/QWyZrRy>
