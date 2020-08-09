@@ -3,6 +3,7 @@
 body {
 	background-color: white;
 	color: black;
+	font-family: sans-serif;
 }
 
 div#main-content {
@@ -11,10 +12,6 @@ div#main-content {
 	right: 0;
 }
 
-body {
-	font-family: sans-serif;
-	color: black;
-}
 
 h1 {
 	color: #A7E31D;
@@ -32,7 +29,7 @@ p.subtitle {
 	font-size: 28pt;
 	padding: 1.6%;
 }
-
+/*Team bios stuff*/
 .gallery {
 	background: #EEE;
 }
@@ -95,7 +92,6 @@ div.members {
 	text-align: center;
 	padding: 1.6%;
 }
-
 
 /* navbar stuff */
 
