@@ -38,3 +38,17 @@ var height = Math.max( body.scrollHeight, body.offsetHeight,
                        html.clientHeight, html.scrollHeight, html.offsetHeight );
 navbar.style.height = height+"px";
 console.log(height+"px");
+
+
+
+
+// Team Bio Stuff
+//Add https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js as external script
+function teamBioFace(elemId) {
+  var x = document.getElementById(elemId);
+  if (x.style.display === "none") {
+	x.style.display = "block";
+  } else {
+	x.style.display = "none";
+  }
+}
