@@ -87,13 +87,13 @@ button {
 }
 
 .face div {
-	background-color: #fcfcfc;
+	background-color: #cfcfcf;
 	width: inherit;
 }
 
 .face span {
 	display: none;
-	background-color: #a7e31d;
+	background-color: #fcfcfc;
 	width: inherit;
 }
 
