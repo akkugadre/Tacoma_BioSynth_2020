@@ -46,9 +46,9 @@ console.log(height+"px");
 //Add https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js as external script
 function teamBioFace(elemId) {
   var x = document.getElementById(elemId);
-  if (x.style.display === "none") {
-	x.style.display = "block";
-  } else {
+  if (x.style.display === "block") {
 	x.style.display = "none";
+  } else {
+	x.style.display = "block";
   }
 }
