@@ -9,7 +9,6 @@ body {
 
 h1 {
 	color: #A7E31D;
-	position: static;
 	text-align: center;
 	background-color: #155167;
 	font-size: 34pt;
@@ -20,9 +19,6 @@ h2 {
 	font-family: "helvetica", times, serif;
 	font-size: 25px;
 	color: #BA84CB;
-	position: absolute;
-	left: 12em;
-	right: 0;
 }
 
 div#main-content {
