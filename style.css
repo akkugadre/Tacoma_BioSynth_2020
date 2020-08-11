@@ -44,7 +44,7 @@ p.subtitle {
 
 .gallery-cell {
 	width: 66%;
-	height: 200px;
+	height: 400px;
 	margin-right: 10px;
 	background: #BA84CB;
 	counter-increment: gallery-cell;
