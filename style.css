@@ -53,14 +53,15 @@ p.subtitle {
 	text-align: center;
 	font-size: 32px;
 	color: white;
-	Background-image: url("Images/Design&media.jpeg");
 }
-
+.gallery-cell#design/media {
+	
 p.team-description {
 	position: static;
 	text-align: center;
 	font-size: 16pt;
 	padding: 1.6%;
+	Background-image: url("Images/Design&media.jpeg");
 }
 
 button {
