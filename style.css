@@ -39,6 +39,7 @@ p.subtitle {
 /*Team bios stuff*/
 .gallery {
 	background: #EEE;
+	height: 400px;
 }
 
 .gallery-cell {
