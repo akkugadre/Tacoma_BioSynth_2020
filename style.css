@@ -55,13 +55,13 @@ p.subtitle {
 	color: white;
 }
 .gallery-cell#design/media {
-	
+	Background-image: url("Images/Design&media.jpeg");
+}
 p.team-description {
 	position: static;
 	text-align: center;
 	font-size: 16pt;
 	padding: 1.6%;
-	Background-image: url("Images/Design&media.jpeg");
 }
 
 button {
