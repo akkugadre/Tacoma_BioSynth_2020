@@ -56,7 +56,7 @@ p.subtitle {
 }
 .gallery-cell#designMedia {
 	Background-image: url("Images/Design&media.jpeg");
-	color: #A9A9A9;
+	color: black;
 }
 p.team-description {
 	position: static;
