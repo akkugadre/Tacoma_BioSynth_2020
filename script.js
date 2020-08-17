@@ -2,7 +2,7 @@ var navbar = document.getElementById("navbar");
 navbar.innerHTML = `
      <img src="https://cdn.discordapp.com/attachments/711039492688969790/735387388444147762/unknown.png"></img>
       <dl>
-         <a href=https://codepen.io/MaxAllen/pen/QWyZrRy>
+         <a href="index.html">
             <dt>Home</dt>
          </a>
          <a href="teambios.html">
