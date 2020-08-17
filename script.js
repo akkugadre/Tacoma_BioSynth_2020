@@ -14,10 +14,10 @@ navbar.innerHTML = `
          <a href="collaborations.html">
             <dd>Collaborations</dd>
          </a>
-         <a href="basicPage.html">
+         <a href="projDescription.html">
             <dt>Project</dt>
          </a>
-         <a href="basicPage.html">
+         <a href="projDescription.html">
             <dd>Description</dd>
          </a>
          <a href="research.html">
