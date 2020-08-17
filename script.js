@@ -11,7 +11,7 @@ navbar.innerHTML = `
          <a href="teambios.html">
             <dd>Team&nbsp;Members</dd>
          </a>
-         <a href=https://codepen.io/MaxAllen/pen/QWyZrRy>
+         <a href="collaborations.html">
             <dd>Collaborations</dd>
          </a>
          <a href=https://codepen.io/MaxAllen/pen/QWyZrRy>
