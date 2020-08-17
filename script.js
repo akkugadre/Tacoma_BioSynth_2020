@@ -14,19 +14,19 @@ navbar.innerHTML = `
          <a href="collaborations.html">
             <dd>Collaborations</dd>
          </a>
-         <a href=https://codepen.io/MaxAllen/pen/QWyZrRy>
+         <a href="basicPage.html">
             <dt>Project</dt>
          </a>
          <a href="basicPage.html">
             <dd>Description</dd>
          </a>
-         <a href=https://codepen.io/MaxAllen/pen/QWyZrRy>
+         <a href="research.html">
             <dd>Research</dd>
          </a>
-         <a href=https://codepen.io/MaxAllen/pen/QWyZrRy>
+         <a href="contributions.html">
             <dd>Contributions</dd>
          </a>
-         <a href=https://codepen.io/MaxAllen/pen/QWyZrRy>
+         <a href="attributions.html">
             <dd>Attributions</dd>
          </a>
       </dl>
