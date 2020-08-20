@@ -144,13 +144,13 @@ div#navbar a {
 */
 footer {
 	padding: 100px 180px 10px 180px;
-	font-family: "helvetica", times, serif;
+	font-family: 'Oxygen', sans-serif;
 	font-size: 14px;
 	color: black;
 }
 
 .safetyHeading {
-	font-family: "helvetica", times, serif;
+	font-family: 'Oxygen', sans-serif;
 	font-size: 40px;
 	margin: 0px;
 	color: #155167;
