@@ -26,6 +26,48 @@ div#main-content {
 	left: 12em;
 	right: 0;
 	padding: 25px 45px 2.5px 45px;
+	transition-duration: 0.2s;
+}
+
+div#main-content.slide-out {
+	transform: translateX(-800px);
+}
+
+div#main-content.slide-out:after {
+	content: " ";
+	position: absolute;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	background-color: red;
+	opacity: .2;
+	z-index:8;
+}
+
+div#bio-text > div {
+	position:fixed;
+	top:0;
+	right: 0;
+	width: 800px;
+	height:100%;
+	transition-duration: 0.2s;
+	overflow-y: auto;
+	background: cyan;
+	transform: translateX(800px);
+}
+
+div#bio-text > div > img{
+	width:100%;
+	height:auto;
+}
+
+div#bio-text > div > p{
+	margin: 1em 3em 1em 3em;
+}
+
+div#bio-text > div.slide-in {
+	transform: translateX(0);
 }
 
 
@@ -36,6 +78,7 @@ p.subtitle {
 	font-size: 28pt;
 	padding: 1.6%;
 }
+
 /*Team bios stuff*/
 .gallery {
 	background: #EEE;
@@ -68,6 +111,7 @@ p.team-description {
 button {
 	border: none;
 	padding: 0px 0px;
+	margin: 2px;
 }
 
 .face {
