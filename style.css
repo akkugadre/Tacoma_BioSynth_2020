@@ -42,7 +42,7 @@ div#main-content.slide-out:after {
 	top:0;
 	right:0;
 	bottom:0;
-	background-color: grey;
+	background-color: #6fb4d6;
 	opacity: .2;
 	z-index:8;
 }
