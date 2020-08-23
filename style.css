@@ -27,11 +27,10 @@ div#main-content {
 	right: 0;
 	padding: 25px 45px 2.5px 45px;
 	transition-duration: 0.2s;
-	top: 0;
 }
 
 div#main-content.slide-out {
-	transform: translateX(-800px);
+	transform: translateX(-30vw);
 }
 
 div#main-content.slide-out:after {
@@ -50,12 +49,12 @@ div#bio-text > div {
 	position:fixed;
 	top:0;
 	right: 0;
-	width: 800px;
+	width: 30vw;
 	height:100%;
 	transition-duration: 0.2s;
 	overflow-y: auto;
 	background: cyan;
-	transform: translateX(800px);
+	transform: translateX(30vw);
 }
 
 div#bio-text > div > img{
@@ -162,7 +161,6 @@ div#navbar {
 	bottom: 0;
 	box-shadow: 15px 0px 20px grey;
 	z-index: 10;
-	overflow-y: auto;
 	
 }
 
