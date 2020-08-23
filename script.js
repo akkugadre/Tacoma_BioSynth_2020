@@ -44,11 +44,21 @@ console.log(height+"px");*/
 
 // Team Bio Stuff
 //Add https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js as external script
+var mainContent = document.getElementById("main-content");
 function teamBioFace(elemId) {
-  var x = document.getElementById(elemId);
-  if (x.style.display === "block") {
-	x.style.display = "none";
-  } else {
-	x.style.display = "block";
-  }
+  console.log(elemId);
+  mainContent.classList.add("slide-out");
+  document.getElementById(elemId).classList.add("slide-in");
+  
+  // add function to slide back
+  // Code for Safari 3.1 to 6.0
+  mainContent.onclick = function(){};
+  var resetMainContent = function(){mainContent.onclick=function(){
+	mainContent.classList.remove("slide-out");
+	document.getElementById(elemId).classList.remove("slide-in");
+  }}
+  mainContent.addEventListener("webkitTransitionStart", resetMainContent);
+  // Standard syntax
+  mainContent.addEventListener("transitionstart", resetMainContent);
+  
 }
