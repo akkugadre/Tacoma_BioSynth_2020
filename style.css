@@ -27,6 +27,7 @@ div#main-content {
 	right: 0;
 	padding: 25px 45px 2.5px 45px;
 	transition-duration: 0.2s;
+	top: 0;
 }
 
 div#main-content.slide-out {
@@ -161,6 +162,7 @@ div#navbar {
 	bottom: 0;
 	box-shadow: 15px 0px 20px grey;
 	z-index: 10;
+	overflow-y: auto;
 	
 }
 
