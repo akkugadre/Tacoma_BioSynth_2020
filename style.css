@@ -55,7 +55,7 @@ div#bio-text > div {
 	height:100%;
 	transition-duration: 0.2s;
 	overflow-y: auto;
-	background: cyan;
+	background: #6fb4d6;
 	transform: translateX(30vw);
 }
 
@@ -66,6 +66,10 @@ div#bio-text > div > img{
 
 div#bio-text > div > p{
 	margin: 1em 3em 1em 3em;
+}
+
+div#bio-text > div h2 {
+	text-align: center;
 }
 
 div#bio-text > div.slide-in {
