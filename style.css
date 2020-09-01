@@ -215,6 +215,7 @@ footer {
   text-align: center;
   background-image: url("https://videohive.img.customer.envatousercontent.com/files/1ca4981c-2849-4e22-af2e-b53d114b9cc1/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=bfde0bc352e2734f27665efc6d12917f");
   height: 100vh;
+width:100vw;
   background-position: center;
   background-repeat: no-repeat;  
   background-size: cover;
@@ -222,8 +223,8 @@ footer {
 }
 .titleHomePage {
   font-family: 'Oxygen', sans-serif;
-  position: relative;
-  top: 50%;
+  position: absolute;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
  color: black;
