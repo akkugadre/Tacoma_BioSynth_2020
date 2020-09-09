@@ -221,17 +221,7 @@ width:100vw;
   background-size: cover;
   opacity: 0.4;
 }
-.titleHomePage {
-  font-family: 'Oxygen', sans-serif;
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%, -50%);
- color: black;
-  text-align: center;
-	font-size: 34pt;
-	padding: 1.6%;
-}
+
 .subheadingHomePg {font-family: 'Oxygen', sans-serif;
 	font-size: 25px;
 	color: #BA84CB;
