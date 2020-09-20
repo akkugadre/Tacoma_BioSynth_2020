@@ -62,9 +62,10 @@ function teamBioFace(elemId) {
   mainContent.addEventListener("transitionstart", resetMainContent);
   
 }
-var rickastley = document.getElementById("rickroll");
-var makevisable = function(){
-	if(rickastley.style.visibility === 'visible') {
-		rickastley.style.visibility = 'hidden' }
-		else{rickastley.style.visibility = 'visible' }
+
+var makevisable = function(elemid){
+	var elem = document.getElementById(elemid);
+	if(elem.style.visibility === 'visible') {
+		elem.style.visibility = 'hidden'; }
+		else{elem.style.visibility = 'visible'; }
 }
