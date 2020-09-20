@@ -104,8 +104,8 @@ p.subtitle {
 	color: white;
 }
 .gallery-cell#designMedia {
-	Background-image: url("Images/Design&media.jpeg");
-	color: black;
+	Background: #BA84CB;
+	color: white;
 }
 p.team-description {
 	position: static;
