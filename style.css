@@ -213,8 +213,6 @@ footer {
 .homePageHead {
   position: relative;
   height: auto;
-  left:-45px;
-  right:-45px;
 }
 .homePageHead img {
 	width:100%;
