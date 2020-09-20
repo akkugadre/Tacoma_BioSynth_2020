@@ -211,15 +211,16 @@ footer {
 }
 /* css for homepage stuf */
 .homePageHead {
-   position: relative;
-  text-align: center;
-  background-image: url("Images/Untitled drawing (1).jpg");
-  height: 100vh;
-width:100vw;
-  background-position: center;
-  background-repeat: no-repeat;  
-  background-size: cover;
+  position: relative;
+  height: auto;
+  left:-45px;
+  right:-45px;
 }
+.homePageHead img {
+	width:100%;
+	height:auto;
+}
+
 
 .subheadingHomePg {font-family: 'Oxygen', sans-serif;
 	font-size: 25px;
