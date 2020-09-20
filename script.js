@@ -66,6 +66,6 @@ function teamBioFace(elemId) {
 var makevisable = function(elemid){
 	var elem = document.getElementById(elemid);
 	if(elem.style.display === 'block') {
-		elem.style.visibility = 'none'; }
-		else{elem.style.visibility = 'block'; }
+		elem.style.display = 'none'; }
+		else{elem.style.display = 'block'; }
 }
