@@ -162,8 +162,8 @@ div#navbar {
 	top: 0;
 	width: 10em;
 	left: 0;
-	margin: 1px;
-	padding: 1.5em;
+	margin: 0px;
+	padding: 2em;
 	bottom: 0;
 	box-shadow: 15px 0px 20px grey;
 	z-index: 10;
