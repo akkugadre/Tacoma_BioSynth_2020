@@ -21,6 +21,10 @@ h2 {
 	color: #BA84CB;
 }
 
+.alignCenter {
+	padding-left: 50%;
+}
+
 div#main-content {
 	position: absolute;
 	left: 12em;
@@ -176,13 +180,7 @@ div#navbar img {
 	height: auto;
 }
 
-dt {
-	font-size: 32px;
-}
 
-dd {
-	font-size: 15px;
-}
 
 div#navbar a {
 	text-decoration: none;
@@ -223,18 +221,25 @@ footer {
 .subheadingHomePg {font-family: 'Oxygen', sans-serif;
 	font-size: 25px;
 	color: #BA84CB;
-text-align: center;}
+	text-align: center;
+}
+
+.learnMoreRef {
+	position:relative;
+	left: -70px;
+}
 
 .learnMore {
-  color: #A7E31D;
-  border: none;
-  background-color: inherit;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
-  display: inline-block;
+	color: #A7E31D;
+	border: none;
+	background-color: inherit;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+	display: inline-block;
 	text-align: center;
 	background-color: #155167;
+	width: 140px;
 }
 
 
