@@ -158,6 +158,16 @@ div.members {
 	padding: 1.6%;
 }
 
+div.not-pictured {
+	position: relative;
+	left: 12em;
+	right: 0;
+	top: 0;
+	min-height: 100vh;
+	padding: 0 45px 0 45px;
+	transition-duration: 0.2s;
+}
+
 /* navbar stuff */
 
 div#navbar {
