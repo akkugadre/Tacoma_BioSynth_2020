@@ -1,6 +1,6 @@
 var navbar = document.getElementById("navbar");
 navbar.innerHTML = `
-     <img src="Images/Solid-logo.png"></img>
+     <a href="index.html"><img src="Images/Solid-logo2.png"></img></a>
       <dl>
          <a href="index.html">
             <dt>Home</dt>

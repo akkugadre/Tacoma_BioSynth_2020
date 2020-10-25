@@ -197,6 +197,16 @@ div#navbar a {
 	color: black;
 }
 
+div#navbar > dl dt,dd {
+	padding-left: 4px;
+	transition: background-color 0.1s;
+	border-radius: 10px;
+}
+
+div#navbar > dl dt:hover,dd:hover {
+	background-color: #2f7496;
+}
+
 /*img {
 	padding: 10px 180px 0px 180px;
 }
