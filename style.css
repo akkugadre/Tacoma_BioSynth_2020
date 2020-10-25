@@ -6,6 +6,12 @@ body {
 	font-size: 14px;
 	color: black;
 }
+footer {
+	background-color: white;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 14px;
+	color: black;
+}
 
 h1 {
 	color: #A7E31D;
