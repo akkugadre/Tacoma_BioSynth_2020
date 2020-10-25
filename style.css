@@ -25,6 +25,13 @@ h2 {
 	padding-left: 50%;
 }
 
+button {
+	border: none;
+	padding: 0px 0px;
+	margin: 2px;
+	background:rgba(255, 255, 255, 0);
+}
+
 div#main-content {
 	position: absolute;
 	left: 12em;
@@ -116,12 +123,6 @@ p.team-description {
 	text-align: center;
 	font-size: 16pt;
 	padding: 1.6%;
-}
-
-button {
-	border: none;
-	padding: 0px 0px;
-	margin: 2px;
 }
 
 .face {
