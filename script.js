@@ -11,9 +11,6 @@ navbar.innerHTML = `
          <a href="teambios.html">
             <dd>Team&nbsp;Members</dd>
          </a>
-         <a href="collaborations.html">
-            <dd>Collaborations</dd>
-         </a>
          <a href="projDescription.html">
             <dt>Project</dt>
          </a>
@@ -22,12 +19,6 @@ navbar.innerHTML = `
          </a>
          <a href="research.html">
             <dd>Research</dd>
-         </a>
-         <a href="contributions.html">
-            <dd>Contributions</dd>
-         </a>
-         <a href="attributions.html">
-            <dd>Attributions</dd>
          </a>
       </dl>
    `;
