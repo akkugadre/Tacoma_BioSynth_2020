@@ -27,6 +27,12 @@ h2 {
 	color: #BA84CB;
 }
 
+p {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 14pt;
+	color: black;
+}
+
 .alignCenter {
 	padding-left: 50%;
 }
