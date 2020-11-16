@@ -8,17 +8,11 @@ navbar.innerHTML = `
          <a href="teambios.html">
             <dt>Team</dt>
          </a>
-         <a href="teambios.html">
-            <dd>Team&nbsp;Members</dd>
-         </a>
          <a href="projDescription.html">
             <dt>Project</dt>
          </a>
-         <a href="projDescription.html">
-            <dd>Description</dd>
-         </a>
          <a href="research.html">
-            <dd>Research</dd>
+            <dt>Research</dd>
          </a>
       </dl>
    `;
