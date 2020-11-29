@@ -202,6 +202,7 @@ div#navbar img {
 div#navbar a {
 	text-decoration: none;
 	color: black;
+	font-size: 25px;
 }
 
 div#navbar > dl dt,dd {
