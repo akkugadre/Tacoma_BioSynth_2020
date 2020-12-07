@@ -209,6 +209,7 @@ div#navbar > dl dt,dd {
 	padding-left: 4px;
 	transition: background-color 0.1s;
 	border-radius: 10px;
+	margin-bottom: 10px;
 }
 
 div#navbar > dl dt:hover,dd:hover {
