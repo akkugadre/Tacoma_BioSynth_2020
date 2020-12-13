@@ -36,6 +36,7 @@ p {
 li {font-family: 'Oxygen', sans-serif;
 	font-size: 18px;
 	color: black;
+	
 }
 .alignCenter {
 	padding-left: 50%;
@@ -56,6 +57,7 @@ div#main-content {
 	min-height: 100vh;
 	padding: 0 45px 0 45px;
 	transition-duration: 0.2s;
+	font-size: 18px;
 }
 
 div#main-content.slide-out {
