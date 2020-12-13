@@ -33,6 +33,10 @@ p {
 	color: black;
 }
 
+li {font-family: 'Oxygen', sans-serif;
+	font-size: 18px;
+	color: black;
+}
 .alignCenter {
 	padding-left: 50%;
 }
