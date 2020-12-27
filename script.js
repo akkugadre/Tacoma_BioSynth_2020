@@ -3,7 +3,7 @@ navbar.innerHTML = `
      <a href="index.html"><img src="Images/Solid-logo2.png"></img></a>
       <dl>
          <a href="index.html">
-            <dt>Homee</dt>
+            <dt>Home</dt>
          </a>
          <a href="teambios.html">
             <dt>Team</dt>
