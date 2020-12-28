@@ -3,7 +3,7 @@
 body {
 	background-color: white;
 	font-family: 'Oxygen', sans-serif;
-	font-size: 14px;
+	font-size: 18px;
 	color: black;
 }
 footer {
@@ -51,7 +51,7 @@ button {
 
 div#main-content {
 	position: absolute;
-	left: 12em;
+	left: 10em;
 	right: 0;
 	top: 0;
 	min-height: 100vh;
@@ -187,7 +187,7 @@ div#navbar {
 	background-color: #6fb4d6;
 	position: fixed;
 	top: 0;
-	width: 11em;
+	width: 9em;
 	left: 0;
 	margin: 0px;
 	padding: 0.5em;
