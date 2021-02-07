@@ -12,8 +12,11 @@ navbar.innerHTML = `
             <dt>Project</dt>
          </a>
          <a href="research.html">
-            <dt>Research</dd>
+            <dt>Research</dt>
          </a>
+		 <a href="bactillus-subtillis.html">
+			<dd>B. subtillis</dd>
+		 </a>
       </dl>
    `;
 var body = document.body,
