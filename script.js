@@ -14,8 +14,8 @@ navbar.innerHTML = `
          <a href="research.html">
             <dt>Research</dt>
          </a>
-		 <a href="bactillus-subtillis.html">
-			<dd>B. subtillis</dd>
+		 <a href="bactillus-subtilis.html">
+			<dd>B. subtilis</dd>
 		 </a>
       </dl>
    `;
