@@ -29,6 +29,12 @@ h2 {
 	padding-left: 50%;
 }
 
+p.blockIndent {
+	padding-left: 4em;
+	padding-right: 4em;
+	text-align: justify;
+}
+
 button {
 	border: none;
 	padding: 0px 0px;
