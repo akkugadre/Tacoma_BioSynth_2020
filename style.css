@@ -24,9 +24,34 @@ h2 {
 	color: #BA84CB;
 }
 
+button {
+	border: none;
+	padding: 0px 0px;
+	margin: 2px;
+	background:rgba(255, 255, 255, 0);
+}
 
+li {
+	text-align: justify;
+}
+
+
+footer {
+	padding: 100px 180px 10px 180px;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 14px;
+	color: black;
+}
+
+
+/* common formatting */
 .alignCenter {
 	padding-left: 50%;
+}
+
+p.alignCenter {
+	padding-left: 0%;
+	text-align: center;
 }
 
 p.blockIndent {
@@ -35,13 +60,9 @@ p.blockIndent {
 	text-align: justify;
 }
 
-button {
-	border: none;
-	padding: 0px 0px;
-	margin: 2px;
-	background:rgba(255, 255, 255, 0);
-}
+/* common page elements */
 
+/* main content div */
 div#main-content {
 	position: absolute;
 	left: 10em;
@@ -68,37 +89,14 @@ div#main-content.slide-out:after {
 	z-index:8;
 }
 
-div#bio-text > div {
-	position:fixed;
-	top:0;
-	right: 0;
-	width: 30vw;
-	height:100%;
-	transition-duration: 0.2s;
-	overflow-y: auto;
-	background: #6fb4d6;
-	transform: translateX(30vw);
+
+div#main-content p {
+	position: static;
+	text-align: justify;
+	padding: 0.25%;
 }
 
-div#bio-text > div > img{
-	width:100%;
-	height:auto;
-}
-
-div#bio-text > div > p{
-	margin: 1em 3em 1em 3em;
-}
-
-div#bio-text > div h2 {
-	text-align: center;
-}
-
-div#bio-text > div.slide-in {
-	transform: translateX(0);
-}
-
-
-p.subtitle {
+div#main-content p.subtitle {
 	color: #155167;
 	position: static;
 	text-align: center;
@@ -106,13 +104,55 @@ p.subtitle {
 	padding: 1.6%;
 }
 
+/* navbar stuff */
+div#navbar {
+	background-color: #6fb4d6;
+	position: fixed;
+	top: 0;
+	width: 9em;
+	left: 0;
+	margin: 0px;
+	padding: 0.5em;
+	bottom: 0;
+	box-shadow: 5px 0px 20px grey;
+	z-index: 10;
+	overflow-y: auto;
+	
+}
+
+div#navbar img {
+	width: 100%;
+	height: auto;
+}
+
+
+
+div#navbar a {
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+}
+
+div#navbar > dl dt,dd {
+	padding-left: 4px;
+	transition: background-color 0.1s;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+div#navbar > dl dt:hover,dd:hover {
+	background-color: #2f7496;
+}
+
+
+
 /*Team bios stuff*/
-.gallery {
+div.gallery {
 	background: #EEE;
 	height: 400px;
 }
 
-.gallery-cell {
+div.gallery-cell {
 	width: 66%;
 	height: 400px;
 	margin-right: 10px;
@@ -124,11 +164,8 @@ p.subtitle {
 	font-size: 32px;
 	color: white;
 }
-.gallery-cell#designMedia {
-	Background: #BA84CB;
-	color: white;
-}
-p.team-description {
+
+div#main-content div.gallery-cell p.team-description {
 	position: static;
 	text-align: center;
 	font-size: 18pt;
@@ -173,79 +210,44 @@ div.not-pictured {
 	text-align: center;
 }
 
-/* navbar stuff */
-
-div#navbar {
-	background-color: #6fb4d6;
-	position: fixed;
-	top: 0;
-	width: 9em;
-	left: 0;
-	margin: 0px;
-	padding: 0.5em;
-	bottom: 0;
-	box-shadow: 5px 0px 20px grey;
-	z-index: 10;
+div#bio-text > div {
+	position:fixed;
+	top:0;
+	right: 0;
+	width: 30vw;
+	height:100%;
+	transition-duration: 0.2s;
 	overflow-y: auto;
-	
+	background: #6fb4d6;
+	transform: translateX(30vw);
 }
 
-div#navbar img {
-	width: 100%;
-	height: auto;
+div#bio-text > div > img{
+	width:100%;
+	height:auto;
+}
+
+div#bio-text > div > p{
+	margin: 1em 3em 1em 3em;
+}
+
+div#bio-text > div h2 {
+	text-align: center;
+}
+
+div#bio-text > div.slide-in {
+	transform: translateX(0);
 }
 
 
-
-div#navbar a {
-	text-decoration: none;
-	color: black;
-	font-size: 25px;
-}
-
-div#navbar > dl dt,dd {
-	padding-left: 4px;
-	transition: background-color 0.1s;
-	border-radius: 10px;
-	margin-bottom: 10px;
-}
-
-div#navbar > dl dt:hover,dd:hover {
-	background-color: #2f7496;
-}
-
-/*img {
-	padding: 10px 180px 0px 180px;
-}
-*/
-footer {
-	padding: 100px 180px 10px 180px;
-	font-family: 'Oxygen', sans-serif;
-	font-size: 14px;
-	color: black;
-}
-
-.safetyHeading {
-	font-family: 'Oxygen', sans-serif;
-	font-size: 40px;
-	margin: 0px;
-	color: #155167;
-	padding: 100px 180px 10px 180px;
-	background-image: url("data:image/jpeg;base64,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");
-	font-weight: 400;
-}
-/* css for homepage stuf */
-.homePageHead {
-  position: relative;
-  height: auto;
-}
+/* Homepage Stuff */
 .homePageHead img {
 	width:100%;
 	height:auto;
 }
 
 
-.subheadingHomePg {font-family: 'Oxygen', sans-serif;
+.subheadingHomePg {
 	font-size: 25px;
 	color: #BA84CB;
 	text-align: center;
@@ -270,10 +272,9 @@ footer {
 }
 
 
-.learnMore:hover {background: #155167;
- opacity: 0.7;}
+.learnMore:hover {
+	background: #155167;
+	opacity: 0.7;
+}
 
-.infoText {
-position: static;
-	text-align: justify;
-	padding: 0.25%;}
+
