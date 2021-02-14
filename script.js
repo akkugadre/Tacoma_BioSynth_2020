@@ -17,6 +17,9 @@ navbar.innerHTML = `
 		 <a href="bacillus-subtilis.html">
 			<dd>B. subtilis</dd>
 		 </a>
+		 <a href="ldpe.html">
+			<dd>LDPE</dd>
+		 </a>
       </dl>
    `;
 var body = document.body,
