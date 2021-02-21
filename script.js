@@ -14,11 +14,11 @@ navbar.innerHTML = `
          <a href="research.html">
             <dt>Research</dt>
          </a>
-		 <a href="bacillus-subtilis.html">
-			<dd>B. subtilis</dd>
-		 </a>
 		 <a href="ldpe.html">
 			<dd>LDPE</dd>
+		 </a>
+		 <a href="bacillus-subtilis.html">
+			<dd>B. subtilis</dd>
 		 </a>
       </dl>
    `;
