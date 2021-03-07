@@ -20,6 +20,12 @@ navbar.innerHTML = `
 		 <a href="bacillus-subtilis.html">
 			<dd>B. subtilis</dd>
 		 </a>
+		 <a href="bacillus-amyloliquefaciens.html">
+			<dd>B. amylo…</dd>
+		 </a>
+		 <a href="pseudomonas-putida.html">
+			<dd>P. putida</dd>
+		 </a>
       </dl>
    `;
 var body = document.body,
