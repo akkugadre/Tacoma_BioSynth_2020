@@ -150,6 +150,11 @@ div#navbar > dl dt:hover,dd:hover {
 	background-color: #2f7496;
 }
 
+div#navbar > dd {
+	position: relative;
+	left: -18px;
+	width: 130px;
+}
 
 
 /*Team bios stuff*/
