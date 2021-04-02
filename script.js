@@ -26,6 +26,12 @@ navbar.innerHTML = `
 		 <a href="pseudomonas-putida.html">
 			<dd>P. putida</dd>
 		 </a>
+		 <a href="cocultures.html">
+			<dd>Cocultures</dd>
+		 </a>
+		 <a href="references.html">
+			<dd>References</dd>
+		 </a>
       </dl>
    `;
 var body = document.body,
