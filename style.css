@@ -60,6 +60,11 @@ p.blockIndent {
 	text-align: justify;
 }
 
+.hangingindent {
+  padding-left: 22px ;
+  text-indent: -22px ;
+} 
+
 /* common page elements */
 
 /* main content div */
