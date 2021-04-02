@@ -21,7 +21,7 @@ navbar.innerHTML = `
 			<dd>B. subtilis</dd>
 		 </a>
 		 <a href="bacillus-amyloliquefaciens.html">
-			<dd>B. amylo…</dd>
+			<dd>B. amylo...</dd>
 		 </a>
 		 <a href="pseudomonas-putida.html">
 			<dd>P. putida</dd>
