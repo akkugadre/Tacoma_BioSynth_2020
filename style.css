@@ -60,11 +60,6 @@ p.blockIndent {
 	text-align: justify;
 }
 
-.hangingindent {
-  padding-left: 22px ;
-  text-indent: -22px ;
-} 
-
 /* common page elements */
 
 /* main content div */
@@ -108,6 +103,12 @@ div#main-content p.subtitle {
 	font-size: 28pt;
 	padding: 1.6%;
 }
+
+div#main-content .hangingindent {
+  text-align: left;
+  padding-left: 90px ;
+  text-indent: -90px ;
+} 
 
 /* navbar stuff */
 div#navbar {
